@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "L_OPTUNA",
+  "tier": "TIER_5_WORLD_NEURO_EMBODIED",
+  "slug": "optuna/optuna",
+  "commit": "0684fbd74793",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 46.41,
+      "min": 42.02,
+      "max": 50.54,
+      "all": [
+        50.54,
+        46.5,
+        44.01,
+        49.0,
+        42.02
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "L_OPTUNA (optuna/optuna) \u2014 472 files, 72054 source lines, licence MIT, primary language ['Python']",
+      "token_count": 33,
+      "tokens_preview": [
+        "[CLS]",
+        "l",
+        "_",
+        "opt",
+        "##una",
+        "(",
+        "opt",
+        "##una",
+        "/",
+        "opt",
+        "##una",
+        ")",
+        "\u2014",
+        "47",
+        "##2",
+        "files",
+        ",",
+        "720",
+        "##54",
+        "source"
+      ],
+      "tokenization_latency_ms": 1.0,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5901,
+      "classification_latency_ms": 94.99,
+      "status": "PASS"
+    }
+  }
+}

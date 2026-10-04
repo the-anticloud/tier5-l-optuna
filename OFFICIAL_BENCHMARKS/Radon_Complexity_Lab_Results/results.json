@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_OPTUNA",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 2.9194630872483223
+    },
+    "complexity_grade": "A",
+    "complexity_score": 2.9194630872483223,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_OPTUNA\\UPSTREAM\\optuna\\cli.py\n    F 98:0 _convert_to_dict - D (25)\n    F 204:0 _dump_table - C (13)\n    F 57:0 _get_storage - B (10)\n    F 82:0 _format_value - B (10)\n    M 689:4 _Ask.take_action - B (10)\n    F 244:0 _format_output - B (8)\n    C 655:0 _Ask - B (7)\n    M 441:4 _Studies.take_action - B (6)\n    F 929:0 _preprocess_argv - A (5)\n    C 415:0 _Studies - A (5)\n    C 625:0 _StorageUpgrade - A (5)\n    F 191:0 _dump_value - A (4)\n    F 977:0 main - A (4)\n    M 628:4 _StorageUpgrade.take_action - A (4)\n    F 42:0 _check_storage_url - A (3)\n    C 162:0 CellValue - A (3)\n    M 163:4 CellValue.__init__ - A (3)\n    M 181:4 CellValue.get_string - A (3)\n    C 391:0 _StudyNames - A (3)\n    C 470:0 _Trials - A (3)\n    C 520:0 _BestTrial - A (3)\n    C 573:0 _BestTrials - A (3)\n    M 598:4 _BestTrials.take_action - A (3)\n    C 760:0 _Tell - A (3)\n    F 829:0 _parse_storage_class_without_suggesting_deprecated_choices - A (2)\n    F 893:0 _add_commands - A (2)\n    F 963:0 _set_log_file - A (2)\n    M 172:4 CellValue.__str__ - A (2)\n    C 273:0 _BaseCommand - A (2)\n    C 307:0 _CreateStudy - A (2)\n    C 355:0 _DeleteStudy - A (2)\n    C 368:0 _StudySetUserAttribute - A (2)\n    M 404:4 _StudyNames.take_action - A (2)\n    M 495:4 _Trials.take_action - A (2)\n    M 545:4 _BestTrial.take_action - A (2)\n    M 781:4 _Tell.take_action - A (2)\n    F 846:0 _add_common_arguments - A (1)\n    F 917:0 _get_parser - A (1)\n    F 945:0 _set_",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_OPTUNA\\UPSTREAM\\optuna\\cli.py - B (13.03)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_OPTUNA\\UPSTREAM\\optuna\\distributions.py - A (35.77)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_OPTUNA\\UPSTREAM\\optuna\\exceptions.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\L_OPTUNA\\UPSTREAM\\optuna\\logging.py - A (52.70)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODI"
+  }
+}
